@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Strategi Penjagaan Kesihatan Mental &amp; Fizikal Siswa Guru</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=Figtree:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#EEF5F2;--sf:#fff;--ink:#0F2F2C;--mu:#4B6663;--ln:#CFE0DA;--f:#1E7A8C;--m:#7A4E8F;--s:#F4B63F;--of:#fff;--om:#fff;--os:#0F2F2C;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0C1F1D;--sf:#132C29;--ink:#E6F2EE;--mu:#9DB8B2;--ln:#25443F;--f:#4FB3C6;--m:#B38BC9;--s:#F4B63F;--of:#06242A;--om:#1E1026;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0C1F1D;--sf:#132C29;--ink:#E6F2EE;--mu:#9DB8B2;--ln:#25443F;--f:#4FB3C6;--m:#B38BC9;--s:#F4B63F;--of:#06242A;--om:#1E1026;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 Figtree,system-ui,sans-serif}
+.w{max-width:1080px;margin:0 auto;padding:0 20px}
+h1,h2,h3{font-family:'Bricolage Grotesque',Figtree,system-ui,sans-serif;line-height:1.12;margin:0}
+h1{font-size:clamp(2rem,5vw,3.5rem);font-weight:800;letter-spacing:-.02em;max-width:18ch}
+h2{font-size:clamp(1.4rem,3vw,2rem);font-weight:800;margin-bottom:10px}
+p{margin:0 0 12px;max-width:68ch}
+.mu{color:var(--mu)}
+.hero{display:grid;gap:24px 44px;padding:32px 0 48px;grid-template-areas:"i" "w" "p"}
+@media(min-width:860px){.hero{grid-template-columns:1fr 1fr;grid-template-areas:"i w" "p w";align-items:start}}
+.intro{grid-area:i}.wb{grid-area:w}.panel{grid-area:p}
+.lg{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}
+.tag{display:inline-block;font-size:.85rem;font-weight:700;padding:2px 12px;border-radius:99px;border:1.5px solid var(--ln);background:var(--sf)}
+.t-f{background:var(--f);color:var(--of);border-color:var(--f)}.t-m{background:var(--m);color:var(--om);border-color:var(--m)}.t-s{background:var(--s);color:var(--os);border-color:var(--s)}
+.pg{height:10px;background:var(--ln);border-radius:9px;overflow:hidden;max-width:360px}
+.pg i{display:block;height:100%;width:0;background:var(--f);transition:width .3s}
+#wheel{width:100%;max-width:470px;display:block;margin:0 auto}
+.seg{cursor:pointer;outline:none}.seg path{stroke:var(--bg);stroke-width:3}
+.seg:hover path{opacity:.88}.seg.on path,.seg:focus-visible path{stroke:var(--ink);stroke-width:4}
+.g-f path{fill:var(--f)}.g-m path{fill:var(--m)}.g-s path{fill:var(--s)}
+.g-f .lb{fill:var(--of)}.g-m .lb{fill:var(--om)}.g-s .lb{fill:var(--os)}
+.em{font-size:30px;text-anchor:middle;dominant-baseline:central;pointer-events:none}
+.lb{font:700 12.5px Figtree,sans-serif;text-anchor:middle;dominant-baseline:central;pointer-events:none}
+.ctr{font:800 17px 'Bricolage Grotesque',sans-serif;text-anchor:middle;fill:var(--ink)}
+.panel{background:var(--sf);border:1px solid var(--ln);border-radius:16px;padding:22px}
+.panel h2{margin:10px 0 4px}.th{font-size:.92rem;color:var(--mu)}
+.panel ul{list-style:none;padding:0;margin:12px 0}
+.panel li{padding:8px 0;border-top:1px solid var(--ln)}
+.panel label{display:flex;gap:12px;align-items:flex-start;cursor:pointer}
+input[type=checkbox]{width:20px;height:20px;margin-top:3px;accent-color:var(--f);flex:none}
+.tip{background:var(--bg);border-left:5px solid var(--s);padding:10px 14px;border-radius:6px;margin:0}
+section{padding:44px 0;border-top:1px solid var(--ln)}
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}
+.tabs button{font:700 1rem Figtree,sans-serif;padding:8px 18px;border-radius:99px;border:1.5px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer}
+.tabs button[aria-selected=true]{background:var(--ink);color:var(--bg)}
+.tp{background:var(--sf);border:1px solid var(--ln);border-radius:16px;padding:22px;max-width:760px}
+.rd{display:grid;gap:28px;align-items:center}
+@media(min-width:760px){.rd{grid-template-columns:1fr 1fr}}
+.sl{display:grid;grid-template-columns:1fr 2.4rem;gap:2px 10px;margin-bottom:14px;font-weight:600}
+.sl input{grid-column:1;width:100%;accent-color:var(--f)}.sl output{grid-column:2;grid-row:1/3;align-self:center;font:800 1.3rem 'Bricolage Grotesque',sans-serif;text-align:right}
+#radar{width:100%;max-width:400px;display:block;margin:0 auto}
+.ring,.ax{fill:none;stroke:var(--ln)}.poly{fill:var(--f);fill-opacity:.28;stroke:var(--f);stroke-width:2.5}.dot{fill:var(--f)}
+.rl{font:600 12px Figtree,sans-serif;fill:var(--ink);text-anchor:middle}
+.res{background:var(--sf);border:1px solid var(--ln);border-radius:16px;padding:18px 22px;margin-top:8px}
+button.go{font:700 1rem Figtree,sans-serif;padding:9px 20px;border-radius:99px;border:0;background:var(--ink);color:var(--bg);cursor:pointer}
+.help{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.help div{background:var(--sf);border:1px solid var(--ln);border-radius:16px;padding:18px}
+.help a{color:var(--ink);font:800 1.5rem 'Bricolage Grotesque',sans-serif}
+footer{padding:36px 0 48px;border-top:1px solid var(--ln);font-size:.93rem;color:var(--mu)}
+footer h3{font-size:1.1rem;color:var(--ink);margin:18px 0 6px}
+.rf p{padding-left:2rem;text-indent:-2rem;max-width:80ch}
+.fn{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));margin-top:18px}
+.fn a{display:block;background:var(--sf);border:1px solid var(--ln);border-radius:16px;padding:18px;color:var(--ink);text-decoration:none}
+.fn a:hover{border-color:var(--ink)}.fn span{font-size:1.8rem}.fn h3{font-size:1.15rem;margin:6px 0}.fn p{font-size:.95rem;color:var(--mu);margin:0}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--s);outline-offset:2px}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<main class="w">
+<div class="hero" id="top">
+ <div class="intro">
+  <p class="mu" style="margin-bottom:10px">Tugasan 2.1 Individu, GKKO1062 Kokurikulum dan Kesihatan Diri</p>
+  <h1>Strategi Penjagaan Kesihatan Mental &amp; Fizikal Siswa Guru</h1>
+  <p style="margin-top:16px">Lima strategi berasaskan teori WHO, WASH dan Sphere Standard. Pilih satu bahagian pada roda untuk melihat langkah yang boleh dicuba.</p>
+  <div class="lg" aria-label="Petunjuk warna"><span class="tag t-f">Fizikal</span><span class="tag t-m">Mental</span><span class="tag t-s">Sosial</span></div>
+  <p class="mu" style="margin-bottom:6px">Tindakan dicuba: <b id="pc">0</b> / 15</p>
+  <div class="pg"><i id="pb"></i></div>
+ </div>
+ <div class="wb"><svg id="wheel" viewBox="0 0 400 400" role="group" aria-label="Roda lima strategi kesihatan"></svg></div>
+ <div class="panel" id="panel" aria-live="polite"></div>
+</div>
+
+<section id="fungsi">
+ <h2>Tentang website ini dan cara menggunakannya</h2>
+ <p>Website ini ialah produk digital interaktif untuk membantu siswa guru memahami dan mengamalkan penjagaan kesihatan mental dan fizikal. Kandungannya berasaskan teori WHO, WASH dan Sphere Standard.</p>
+ <p class="mu">Setiap strategi ditanda dengan topik kursus: Topik 5 (kesihatan dan kesejahteraan), Topik 6 (gaya hidup sihat) dan Topik 7 (kesihatan dan keselamatan sosial). Klik kad di bawah untuk pergi ke bahagian berkenaan.</p>
+ <div class="fn">
+  <a href="#top"><span>🎡</span><h3>Roda strategi</h3><p>Klik satu bahagian roda untuk melihat tajuk strategi, landasan teori, tiga langkah praktikal dan satu cadangan untuk dicuba hari ini.</p></a>
+  <a href="#top"><span>✅</span><h3>Senarai tindakan</h3><p>Tandakan langkah yang sudah anda cuba. Bar kemajuan mengira sehingga 15 tindakan dan pilihan anda disimpan pada peranti ini.</p></a>
+  <a href="#teori"><span>📚</span><h3>Landasan teori</h3><p>Tiga tab menerangkan WHO, WASH dan Sphere Standard, serta strategi yang menggunakan setiap teori.</p></a>
+  <a href="#semak"><span>📊</span><h3>Semak kesejahteraan</h3><p>Nilaikan diri dari 1 hingga 5 untuk setiap strategi. Graf radar dan cadangan fokus minggu ini dikemas kini serta-merta.</p></a>
+  <a href="#bantuan"><span>🤝</span><h3>Dapatkan bantuan</h3><p>Nombor talian sokongan dan unit kaunseling kampus, apabila anda memerlukan lebih daripada strategi kendiri.</p></a>
+ </div>
+</section>
+
+<section id="teori">
+ <h2>Landasan teori</h2>
+ <p class="mu">Setiap strategi dalam roda disandarkan pada tiga rujukan kesihatan awam berikut.</p>
+ <div class="tabs" role="tablist" id="tabs"></div>
+ <div class="tp" id="tp" role="tabpanel"></div>
+</section>
+
+<section id="semak">
+ <h2>Semak kesejahteraan anda minggu ini</h2>
+ <p class="mu">Nilaikan diri anda dari 1 (sangat kurang) hingga 5 (sangat baik). Graf akan menunjukkan bahagian yang perlu diberi perhatian.</p>
+ <div class="rd">
+  <div id="sliders"></div>
+  <svg id="radar" viewBox="0 0 340 310" role="img" aria-label="Graf radar kesejahteraan"></svg>
+ </div>
+ <div class="res" aria-live="polite"><p id="rt"></p><button class="go" id="rb">Lihat langkahnya</button></div>
+</section>
+
+<section id="bantuan">
+ <h2>Dapatkan bantuan</h2>
+ <p>Meminta bantuan ialah tanda anda menjaga diri. Jika anda berasa sangat tertekan atau terfikir untuk mencederakan diri, hubungi seseorang yang dipercayai sekarang.</p>
+ <div class="help">
+  <div><p>Talian Kasih (Malaysia)</p><a href="tel:15999">15999</a></div>
+  <div><p>Befrienders Kuala Lumpur</p><a href="tel:+60376272929">03-7627 2929</a></div>
+  <div><p>Kampus</p><b>Unit kaunseling atau pensyarah penasihat IPG Kampus Keningau</b></div>
+ </div>
+</section>
+</main>
+
+<footer><div class="w">
+ <h3>Disediakan oleh</h3>
+ <p>[Nama pelajar] · Angka giliran: [Angka giliran] · Kumpulan/Unit: [Kumpulan] · Pensyarah: [Nama pensyarah]<br>GKKO1062 Kokurikulum dan Kesihatan Diri, PPISMP Semester I, IPG Kampus Keningau, Sesi Ogos–Disember 2026</p>
+ <h3>Rujukan</h3>
+ <div class="rf">
+  <p>Sphere Association. (2018). <i>The Sphere handbook: Humanitarian charter and minimum standards in humanitarian response</i> (4th ed.). Practical Action Publishing.</p>
+  <p>World Health Organization. (1948). <i>Constitution of the World Health Organization</i>. WHO.</p>
+  <p>World Health Organization. (2020). <i>WHO guidelines on physical activity and sedentary behaviour</i>. WHO.</p>
+  <p>World Health Organization. (n.d.). <i>Water, sanitation and hygiene (WASH)</i>. https://www.who.int/health-topics/water-sanitation-and-hygiene-wash</p>
+ </div>
+</div></footer>
+
+<script>
+const $=s=>document.querySelector(s);
+const TN={5:'Kesihatan dan kesejahteraan',6:'Gaya hidup sihat',7:'Kesihatan dan keselamatan sosial'};
+const S=[
+{k:'Makan',e:'🥗',d:'f',dl:'Fizikal',t:6,full:'Pemakanan seimbang dan air bersih',th:'Sphere Standard (air, makanan dan pemakanan) dan WASH',
+ a:['Ikut Pinggan Sihat Malaysia: separuh pinggan sayur dan buah, suku nasi, suku lauk','Bawa botol air dan minum air bersih sepanjang hari','Kurangkan minuman bergula dan makan lewat malam'],tip:'Tukar satu minuman manis hari ini kepada air kosong.'},
+{k:'Bergerak',e:'🏃',d:'f',dl:'Fizikal',t:6,full:'Aktif bergerak setiap hari',th:'WHO (2020): 150–300 minit aktiviti sederhana seminggu',
+ a:['Berjalan pantas atau berjoging 30 minit, lima hari seminggu','Sertai aktiviti kokurikulum seperti sukan, unit beruniform atau kelab','Berdiri dan regangkan badan setiap sejam belajar'],tip:'Berjalan kaki ke kuliah atau dewan makan dan ambil laluan yang lebih jauh.'},
+{k:'Tidur',e:'😴',d:'m',dl:'Mental dan fizikal',t:5,full:'Tidur dan rehat berkualiti',th:'WHO: kesejahteraan fizikal dan mental saling berkait',
+ a:['Tidur 7–9 jam pada waktu yang tetap','Matikan skrin 30 minit sebelum tidur','Ambil rehat singkat antara tugasan dan sediakan masa tanpa tugasan pada hujung minggu'],tip:'Tetapkan penggera waktu tidur, bukan hanya waktu bangun.'},
+{k:'Emosi',e:'🧘',d:'m',dl:'Mental',t:5,full:'Urus tekanan dan emosi',th:'WHO: kesihatan mental sebagai keadaan sejahtera yang membolehkan seseorang mengatasi tekanan hidup',
+ a:['Latih pernafasan perlahan selama 5 minit apabila tertekan','Tulis jurnal ringkas tentang perasaan dan perkara yang disyukuri','Pecahkan tugasan besar kepada langkah kecil dengan jadual yang realistik'],tip:'Tarik nafas 4 saat, tahan 4 saat, hembus 6 saat. Ulang lima kali.'},
+{k:'Komuniti',e:'🤝',d:'s',dl:'Sosial',t:7,full:'Komuniti kampus selamat dan saling menyokong',th:'WASH (kebersihan) dan Sphere Standard (keselamatan dan kesihatan)',
+ a:['Cuci tangan dengan sabun sebelum makan dan selepas ke tandas, dan jaga kebersihan asrama','Tanya khabar rakan yang senyap atau kelihatan penat, dan laporkan buli atau gangguan','Patuhi keselamatan jalan raya: topi keledar, tali pinggang, tiada telefon semasa memandu'],tip:'Hantar satu mesej bertanya khabar kepada rakan sebilik atau kumpulan anda.'}];
+const T=[
+{n:'WHO',h:'Kesihatan ialah kesejahteraan fizikal, mental dan sosial',p:'Perlembagaan WHO (1948) mentakrifkan kesihatan sebagai keadaan kesejahteraan fizikal, mental dan sosial yang lengkap, bukan sekadar ketiadaan penyakit. Bagi orang dewasa, WHO (2020) mengesyorkan 150–300 minit aktiviti aerobik sederhana seminggu dan latihan otot sekurang-kurangnya dua hari seminggu.',u:'Bergerak, Tidur, Emosi'},
+{n:'WASH',h:'Air, sanitasi dan kebersihan',p:'WASH bermaksud Water, Sanitation and Hygiene. Air minum yang selamat, tandas yang bersih dan amalan kebersihan diri seperti mencuci tangan dengan sabun mengurangkan risiko penyakit berjangkit, terutama di tempat yang didiami ramai orang seperti asrama.',u:'Makan, Komuniti'},
+{n:'Sphere Standard',h:'Piawaian minimum untuk hidup selamat',p:'Sphere Standard ialah piawaian minimum kemanusiaan yang meliputi air, sanitasi dan kebersihan; keselamatan makanan dan pemakanan; tempat tinggal; serta perkhidmatan kesihatan. Siswa guru boleh menggunakannya sebagai senarai semak: adakah air, makanan, tempat tinggal dan akses kesihatan di kampus mencukupi dan selamat?',u:'Makan, Komuniti'}];
+let chk={};try{chk=JSON.parse(localStorage.getItem('chk')||'{}')}catch(e){}
+/* roda */
+const P=(r,a)=>[200+r*Math.cos(a),200+r*Math.sin(a)].map(n=>n.toFixed(1));
+let h='';
+S.forEach((s,i)=>{const a0=(-90+i*72+1.2)*Math.PI/180,a1=(-90+(i+1)*72-1.2)*Math.PI/180,m=(a0+a1)/2;
+const[x0,y0]=P(180,a0),[x1,y1]=P(180,a1),[x2,y2]=P(78,a1),[x3,y3]=P(78,a0),[ex,ey]=P(140,m),[lx,ly]=P(106,m);
+h+=`<g class="seg g-${s.d}" data-i="${i}" tabindex="0" role="button" aria-label="${s.full}"><path d="M${x0} ${y0}A180 180 0 0 1 ${x1} ${y1}L${x2} ${y2}A78 78 0 0 0 ${x3} ${y3}Z"/><text class="em" x="${ex}" y="${ey}">${s.e}</text><text class="lb" x="${lx}" y="${ly}">${s.k}</text></g>`});
+$('#wheel').innerHTML=h+'<text class="ctr" x="200" y="196">Siswa guru</text><text class="ctr" x="200" y="217">sihat</text>';
+function prog(){const n=Object.values(chk).filter(Boolean).length;$('#pc').textContent=n;$('#pb').style.width=n/15*100+'%'}
+function show(i){const s=S[i];
+document.querySelectorAll('.seg').forEach((g,j)=>g.classList.toggle('on',j==i));
+$('#panel').innerHTML=`<span class="tag t-${s.d}">${s.dl}</span> <span class="tag">Topik ${s.t}: ${TN[s.t]}</span><h2>${s.full}</h2><p class="th">Landasan: ${s.th}</p><ul>${s.a.map((x,j)=>`<li><label><input type="checkbox" data-k="${i}-${j}" ${chk[i+'-'+j]?'checked':''}><span>${x}</span></label></li>`).join('')}</ul><p class="tip"><b>Cuba hari ini:</b> ${s.tip}</p>`;prog()}
+$('#wheel').addEventListener('click',e=>{const g=e.target.closest('.seg');if(g)show(+g.dataset.i)});
+$('#wheel').addEventListener('keydown',e=>{const g=e.target.closest('.seg');if(g&&(e.key=='Enter'||e.key==' ')){e.preventDefault();show(+g.dataset.i)}});
+$('#panel').addEventListener('change',e=>{if(e.target.dataset.k){chk[e.target.dataset.k]=e.target.checked;try{localStorage.setItem('chk',JSON.stringify(chk))}catch(x){}prog()}});
+/* tab teori */
+function tab(i){document.querySelectorAll('#tabs button').forEach((b,j)=>b.setAttribute('aria-selected',j==i));
+const t=T[i];$('#tp').innerHTML=`<h3 style="margin-bottom:8px">${t.h}</h3><p>${t.p}</p><p class="mu" style="margin:0">Digunakan dalam strategi: <b>${t.u}</b></p>`}
+$('#tabs').innerHTML=T.map((t,i)=>`<button role="tab" data-i="${i}">${t.n}</button>`).join('');
+$('#tabs').addEventListener('click',e=>{if(e.target.dataset.i)tab(+e.target.dataset.i)});
+/* radar */
+$('#sliders').innerHTML=S.map((s,i)=>`<label class="sl"><span>${s.e} ${s.full}</span><input type="range" min="1" max="5" value="3" data-i="${i}"><output>3</output></label>`).join('');
+const pt=(i,v)=>{const a=(-90+i*72)*Math.PI/180;return[170+v*22*Math.cos(a),155+v*22*Math.sin(a)].map(n=>n.toFixed(1))};
+let low=0;
+function radar(){const v=[...document.querySelectorAll('#sliders input')].map(x=>+x.value);
+document.querySelectorAll('#sliders output').forEach((o,i)=>o.textContent=v[i]);
+let g=[1,2,3,4,5].map(k=>`<polygon class="ring" points="${S.map((_,i)=>pt(i,k).join(',')).join(' ')}"/>`).join('');
+g+=S.map((s,i)=>{const[x,y]=pt(i,5),[lx,ly]=pt(i,6.1);return`<line class="ax" x1="170" y1="155" x2="${x}" y2="${y}"/><text class="rl" x="${lx}" y="${+ly+4}">${s.k}</text>`}).join('');
+g+=`<polygon class="poly" points="${v.map((n,i)=>pt(i,n).join(',')).join(' ')}"/>`+v.map((n,i)=>{const[x,y]=pt(i,n);return`<circle class="dot" cx="${x}" cy="${y}" r="4.5"/>`}).join('');
+$('#radar').innerHTML=g;
+const avg=v.reduce((a,b)=>a+b,0)/5;low=v.indexOf(Math.min(...v));
+const msg=avg>=4?'Anda menjaga diri dengan baik. Kekalkan rutin ini.':avg>=3?'Asas anda baik dan masih ada ruang untuk diperbaiki.':'Mulakan dengan satu langkah kecil. Anda tidak perlu mengubah segalanya sekali gus.';
+$('#rt').innerHTML=`Purata skor: <b>${avg.toFixed(1)} / 5</b>. ${msg}${avg<2.5?' Jika anda berasa sangat tertekan, rujuk bahagian Dapatkan bantuan.':''} Fokus minggu ini: <b>${S[low].full}</b>.`}
+$('#sliders').addEventListener('input',radar);
+$('#rb').addEventListener('click',()=>{show(low);$('#top').scrollIntoView({behavior:'smooth'})});
+show(0);tab(0);radar();
+</script>
+</body>
+</html>
